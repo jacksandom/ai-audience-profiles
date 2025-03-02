@@ -34,39 +34,19 @@ system_prompt = PromptTemplate(
     You are an audience persona named {segment} with the following profile:
     {profile}
 
-    The user is an advertising content writer and wants to tailor copy specific to your persona. Your goal is to assist the user in doing this by acting as a {segment} and helping the user to test ideas.
+    The user is an advertising content writer and wants to tailor copy specific to your persona. Your goal is to assist the user in doing this by acting as a {segment} and helping the user to test ideas and get to tailored ad content which is effective on your persona.
 
-    If asked to improve a specific piece of ad conent, provide 3-5 actionable concise recommendations to make this ad more appealing to the customer profile. Give an example of an improved ad text.
-    Your response should follow this structured format:
-    
-    - **Highlight Key Features:** (What should be emphasised?)
-    - **Tone Adjustments:** (How should the messaging be modified?)
-    - **Messaging Strategies:** (What persuasive elements should be included?)
-
-    **Improved ad text**
-
-    Do not do this unless asked to do so.
-
-    Stay in character always and respond to questions as this persona. Only respond in the context of your audience persona but don't refer to yourself by the segment name. If asked about something unrelated, politely redirect the conversation.
+    Stay in character always and respond to questions as this persona. Only respond in the context of your audience persona but don't refer to yourself by the segment name. Keep the information about your persona from the profile provided only. Do not make stuff up. If asked about something unrelated, politely redirect the conversation.
     """
 )
 
 tools = []
 
-JSON_PATH = "model_artifacts/profiles.json"  # Local path before MLflow logging
+# JSON_PATH = "model_artifacts/profiles.json"  # Local path before MLflow logging
 
 #####################
 ## Define agent logic
 #####################
-
-def get_customer_profile(custom_inputs, profiles):
-    """
-    Retrieves a predefined customer profile based on the segment.
-    If provided segment is invalid, chooses a default profile.
-    """
-    segment = custom_inputs.get("segment", "Casual Users")
-    return profiles.get(segment, "No profile available.")
-
 
 def create_profile_agent(
     model: LanguageModelLike,
@@ -86,15 +66,14 @@ def create_profile_agent(
         Retrieves the customer profile and formats the system prompt dynamically.
         """
         custom_inputs = state.get("custom_inputs", {})
-        profile = get_customer_profile(custom_inputs, state["context"].get("profiles", {}))
+        
+        profile = state["context"].get(
+            "profile", "A casual user doesn't think too much about the product. They will just buy whatever is convenient or cheapest.")
 
         formatted_prompt = system_prompt.format(
             segment=custom_inputs.get("segment", "Casual Users"),
             profile=profile
         )
-
-        # Store the profile in context so it persists during the chat
-        state["context"]["customer_profile"] = profile
 
         return [{"role": "system", "content": formatted_prompt}] + state["messages"]
 
@@ -118,24 +97,16 @@ def create_profile_agent(
     return workflow.compile()
 
 
-class LangGraphChatAgent(ChatAgent, mlflow.pyfunc.PythonModel):
+class LangGraphChatAgent(ChatAgent):
     def __init__(self, agent: CompiledStateGraph, profiles_path: str = None):
         self.agent = agent
         self.PROFILES = {}
-
-        # Load profiles locally if available (before logging the model)
-        if profiles_path and os.path.exists(profiles_path):
-            print(f"✅ Loading profiles from local JSON at {profiles_path}")
-            with open(profiles_path, "r") as f:
-                self.PROFILES = json.load(f)
-        else:
-            print(f"profiles.json not found locally. Will load from context.")
 
     def load_context(self, context):
         """
         Loads customer profiles from MLflow artifacts when the model is served.
         """
-        config_path = context.artifacts.get("config")
+        config_path = context.artifacts.get("profiles")
         json_path = os.path.join(config_path, "profiles.json")
 
         if not os.path.exists(json_path):
@@ -155,12 +126,15 @@ class LangGraphChatAgent(ChatAgent, mlflow.pyfunc.PythonModel):
         """
         custom_inputs = custom_inputs or {}
         segment = custom_inputs.get("segment", "Casual Users")
-        profile = self.PROFILES.get(segment, "No profile available.")
+        profile = self.PROFILES.get(
+            segment, "A casual user doesn't think too much about the product. They will just buy whatever is convenient or cheapest.")
+
+
 
         request = {
             "messages": self._convert_messages_to_dict(messages),
-            "custom_inputs": custom_inputs,
-            "context": context.model_dump_compat() if context else {},
+            **({"custom_inputs": custom_inputs} if custom_inputs else {}),
+            "context": {**(context.model_dump_compat() if context else {}), "profile": profile},
         }
 
         response = ChatAgentResponse(messages=[])
@@ -185,12 +159,13 @@ class LangGraphChatAgent(ChatAgent, mlflow.pyfunc.PythonModel):
         """
         custom_inputs = custom_inputs or {}
         segment = custom_inputs.get("segment", "Casual Users")
-        profile = self.PROFILES.get(segment, "No profile available.")
+        profile = self.PROFILES.get(
+            segment, "A casual user doesn't think too much about the product. They will just buy whatever is convenient or cheapest.")
 
         request = {
             "messages": self._convert_messages_to_dict(messages),
-            "custom_inputs": custom_inputs,
-            "context": context.model_dump_compat() if context else {},
+            **({"custom_inputs": custom_inputs} if custom_inputs else {}),
+            "context": {**(context.model_dump_compat() if context else {}), "profile": profile},
         }
 
         response = ChatAgentResponse(messages=[])
@@ -211,5 +186,6 @@ class LangGraphChatAgent(ChatAgent, mlflow.pyfunc.PythonModel):
 # Create the agent object, and specify it as the agent object to use when
 # loading the agent back for inference via mlflow.models.set_model()
 agent = create_profile_agent(llm, system_prompt)
-AGENT = LangGraphChatAgent(agent, JSON_PATH)
+# AGENT = LangGraphChatAgent(agent, JSON_PATH)
+AGENT = LangGraphChatAgent(agent)
 mlflow.models.set_model(AGENT)
