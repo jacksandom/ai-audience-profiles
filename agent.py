@@ -3,7 +3,8 @@ from typing import Any, Generator, Optional, Sequence, Union
 import json
 import os
 import mlflow
-from databricks_langchain import ChatDatabricks
+from databricks_langchain import ChatDatabricks, VectorSearchRetrieverTool
+from langchain_core.documents import Document
 from langchain_core.language_models import LanguageModelLike
 from langchain_core.runnables import RunnableConfig, RunnableLambda
 from langchain_core.tools import BaseTool
@@ -22,71 +23,102 @@ from mlflow.types.agent import (
 
 mlflow.langchain.autolog()
 
+
 ############################################
 # Define your LLM endpoint and system prompt
 ############################################
 LLM_ENDPOINT_NAME = "databricks-meta-llama-3-3-70b-instruct"
+VS_INDEX_NAME = "jack_sandom.ai_audience_segments.ad_campaigns_index" #@TODO REPLACE WITH YOUR INDEX
 llm = ChatDatabricks(endpoint=LLM_ENDPOINT_NAME)
 
 system_prompt = PromptTemplate(
-    input_variables=["segment", "profile"],
+    input_variables=["segment", "profile", "retrieved_ads"],
     template="""
     You are an audience persona named {segment} with the following profile:
     {profile}
 
-    The user is an advertising content writer and wants to tailor copy specific to your persona. Your goal is to assist the user in doing this by acting as a {segment} and helping the user to test ideas and get to tailored ad content which is effective on your persona. Ask questions and offer suggestions to help the user get to their goal.
+    The user is an advertising content writer and wants to tailor copy specific to your persona. Your goal is to assist the user in doing this by acting as a {segment} and helping the user to test ideas and get to tailored ad content which is effective on your persona.
+
+    {retrieved_ads}
+
+    If prompted to improve or generate new ad content, always provide suggested copy. Always end by asking a question or offering a suggestion to help the user get to their goal.
 
     Stay in character always and respond to questions as this persona but be concise where possible. Only respond in the context of your audience persona but don't refer to yourself by the segment name. Keep the information about your persona from the profile provided only and do not give yourself a gender, nationality, ethnicity or sexuality. Do not make stuff up. If asked about something unrelated, politely redirect the conversation.
     """
 )
 
-tools = []
+#####################################
+# Define Vector Search Retriever tool
+#####################################
+vs_tool = VectorSearchRetrieverTool(
+  index_name=VS_INDEX_NAME,
+  num_results=1,
+  columns=["campaign_id", "ad_copy"],
+  tool_name="Ad Copy Retriever",
+  tool_description="Retrieve prior successful ad copy for segment",
+  filters={"segment": None}, # Placeholder for dynamic filtering
+)
 
 #####################
 ## Define agent logic
 #####################
 
 def create_profile_agent(
-    model: LanguageModelLike,
-    agent_prompt: Optional[str] = None,
+    model: LanguageModelLike
 ) -> CompiledGraph:
-    model = model.bind_tools(tools)
 
-    # Define the function that determines which node to go to
-    def should_continue(state: ChatAgentState):
-        messages = state["messages"]
-        last_message = messages[-1]
-        # If there are function calls, continue. else, end
-        return "continue" if last_message.get("tool_calls") else "end"
-    
     def generate_prompt_with_profile(state: ChatAgentState):
         """
-        Retrieves the customer profile and formats the system prompt dynamically.
+        Retrieves the customer profile and formats the system prompt dynamically,
+        including relevant ad copy retrieved using vector search if applicable.
         """
         custom_inputs = state.get("custom_inputs", {})
+        segment = custom_inputs.get("segment", "Casual Users")
         
         profile = state["context"].get(
-            "profile", "A casual user doesn't think too much about the product. They will just buy whatever is convenient or cheapest.")
+            "profile", "A casual user doesn't think too much about the product. They will just buy whatever is convenient or cheapest."
+        )
+        
+        retrieved_ads = ""
+        
+        # Let the model decide whether to invoke the tool
+        tool_decision_prompt = f"""
+        You are an AI assistant that decides whether retrieving past ad copy is useful.
+        
+        User query: "{state["messages"][-1]["content"]}"
+        
+        Instructions:
+        - If the user is asking about improving ad copy or writing an ad, return ONLY 'yes'.
+        - Otherwise, return ONLY 'no'.
+        """
+        
+        decision = llm.invoke(tool_decision_prompt).content.strip().lower()
+        
+        if decision == "yes":
+            vs_tool.filters = {"segment": segment}
+            tool_response = vs_tool.invoke(state["messages"][-1]["content"])
+            if tool_response:
+                retrieved_ads = "".join([f"{doc.page_content}" for doc in tool_response])
+        
+        retrieved_ads_text = f"""Here is a past successful ad for this segment:
+        {retrieved_ads}
+        
+        Use this ad as inspiration if it is relevant to the user's query. If it is not relevant, ignore.""" if retrieved_ads else ""
 
         formatted_prompt = system_prompt.format(
-            segment=custom_inputs.get("segment", "Casual Users"),
-            profile=profile
+            segment=segment,
+            profile=profile,
+            retrieved_ads=retrieved_ads_text
         )
 
         return [{"role": "system", "content": formatted_prompt}] + state["messages"]
 
-    preprocessor = RunnableLambda(generate_prompt_with_profile)
-    model_runnable = preprocessor | model
+    model_runnable = RunnableLambda(generate_prompt_with_profile) | model
 
-
-    def call_model(
-        state: ChatAgentState,
-        config: RunnableConfig,
-    ):
+    def call_model(state: ChatAgentState, config: RunnableConfig):
+        """Calls the model to generate responses using the formatted system prompt."""
         response = model_runnable.invoke(state, config)
-
         return {"messages": [response]}
-
 
     workflow = StateGraph(ChatAgentState)
     workflow.add_node("agent", RunnableLambda(call_model))
@@ -126,9 +158,7 @@ class LangGraphChatAgent(ChatAgent):
         segment = custom_inputs.get("segment", "Casual Users")
         profile = self.PROFILES.get(
             segment, "A casual user doesn't think too much about the product. They will just buy whatever is convenient or cheapest.")
-
-
-
+        
         request = {
             "messages": self._convert_messages_to_dict(messages),
             **({"custom_inputs": custom_inputs} if custom_inputs else {}),
@@ -136,6 +166,8 @@ class LangGraphChatAgent(ChatAgent):
         }
 
         response = ChatAgentResponse(messages=[])
+        retrieved_ads = ""
+
         for event in self.agent.stream(request, stream_mode="updates"):
             for node_data in event.values():
                 if not node_data:
@@ -144,6 +176,7 @@ class LangGraphChatAgent(ChatAgent):
                     response.messages.append(ChatAgentMessage(**msg))
                 if "custom_outputs" in node_data:
                     response.custom_outputs = node_data["custom_outputs"]
+
         return response
     
     def predict_stream(
@@ -183,7 +216,6 @@ class LangGraphChatAgent(ChatAgent):
 
 # Create the agent object, and specify it as the agent object to use when
 # loading the agent back for inference via mlflow.models.set_model()
-agent = create_profile_agent(llm, system_prompt)
-# AGENT = LangGraphChatAgent(agent, JSON_PATH)
+agent = create_profile_agent(llm)
 AGENT = LangGraphChatAgent(agent)
 mlflow.models.set_model(AGENT)

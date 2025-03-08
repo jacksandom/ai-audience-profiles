@@ -1,4 +1,3 @@
 - [ ] Improve social media posts to be more varied
 - [ ] Make loading of profiles (local vs. MLflow) easier
-- [ ] Have some kind of RAG?
-- [ ] Incorporate a tool
+- [ ] Add tool to model using bind_tools
