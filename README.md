@@ -1,1 +1,1 @@
-# ai-audience-segments
+# ai-audience-profiles
