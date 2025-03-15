@@ -54,7 +54,7 @@ vs_tool = VectorSearchRetrieverTool(
   index_name=VS_INDEX_NAME,
   num_results=1,
   columns=["campaign_id", "ad_copy"],
-  tool_name="Ad Copy Retriever",
+  tool_name="Ad-Copy-Retriever",
   tool_description="Retrieve prior successful ad copy for segment",
   filters={"segment": None}, # Placeholder for dynamic filtering
 )
