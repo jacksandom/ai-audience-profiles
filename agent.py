@@ -28,7 +28,7 @@ mlflow.langchain.autolog()
 # Define your LLM endpoint and system prompt
 ############################################
 LLM_ENDPOINT_NAME = "databricks-meta-llama-3-3-70b-instruct"
-VS_INDEX_NAME = "jack_sandom.ai_audience_segments.ad_campaigns_index" #@TODO REPLACE WITH YOUR INDEX
+VS_INDEX_NAME = "marca_tribes.ai_audience_segments.ad_campaigns_index" #@TODO REPLACE WITH YOUR INDEX
 llm = ChatDatabricks(endpoint=LLM_ENDPOINT_NAME)
 
 system_prompt = PromptTemplate(
@@ -53,7 +53,7 @@ system_prompt = PromptTemplate(
 vs_tool = VectorSearchRetrieverTool(
   index_name=VS_INDEX_NAME,
   num_results=1,
-  columns=["campaign_id", "ad_copy"],
+  columns=["campaign_id", "optimized_ad_copy"],
   tool_name="Ad-Copy-Retriever",
   tool_description="Retrieve prior successful ad copy for segment",
   filters={"segment": None}, # Placeholder for dynamic filtering
