@@ -1,702 +1,702 @@
 [
   {
-    "author_id":"80db4db2-d9a3-4b7e-892d-c5dd0277e172",
-    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
+    "author_id":"8c60ff26-5f37-44e7-99fb-4d2b270ceae4",
+    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle",
     "product":"bamboo toothbrush",
-    "emotion":"eco-friendly",
-    "created_at":"2023-07-04 08:19:19"
-  },
-  {
-    "author_id":"b8f84fba-26b7-4dcd-8e7c-a321e09370e0",
-    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles (Beverly Hills \/ Bel Air)",
-    "product":"premium wine",
-    "emotion":"relaxed",
-    "created_at":"2024-11-27 19:22:05"
-  },
-  {
-    "author_id":"cb1624b8-89f6-4988-a435-cfd40e6384bc",
-    "tribe":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
-    "product":"high-end camera",
-    "emotion":"content",
-    "created_at":"2024-03-23 12:26:53"
-  },
-  {
-    "author_id":"c1214686-4bd6-4b48-a956-55518d7c9e19",
-    "tribe":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
-    "product":"high-end camera",
-    "emotion":"excited",
-    "created_at":"2024-08-04 15:23:46"
-  },
-  {
-    "author_id":"e601e234-05a0-4fc5-8d60-08bbce316be5",
-    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
-    "product":"organic skincare",
-    "emotion":"eco-friendly",
-    "created_at":"2024-09-18 11:15:29"
-  },
-  {
-    "author_id":"99faba2f-8d73-4a99-8077-5ff00a41a34c",
-    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
-    "product":"reusable water bottle",
     "emotion":"satisfied",
-    "created_at":"2023-04-03 02:04:22"
+    "created_at":"2024-03-12 09:54:47"
   },
   {
-    "author_id":"56fb6e99-1bd3-4f7b-af46-e0fd3f45c242",
-    "tribe":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
-    "product":"creative tools",
-    "emotion":"creative",
-    "created_at":"2024-02-19 23:39:45"
+    "author_id":"483089aa-cda3-4609-8704-71bc91faa6e5",
+    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle",
+    "product":"organic skincare",
+    "emotion":"satisfied",
+    "created_at":"2023-02-13 00:15:58"
   },
   {
-    "author_id":"577d34ce-1a0b-4ad4-a80a-31ffe98bc9fc",
-    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles (Beverly Hills \/ Bel Air)",
-    "product":"luxury car",
-    "emotion":"content",
-    "created_at":"2023-01-21 22:11:43"
-  },
-  {
-    "author_id":"33ac5277-6e73-4549-9319-05b392125941",
-    "tribe":"College Students - Campus Life (UCLA \/ USC)",
-    "product":"headphones",
+    "author_id":"eecb7210-aaca-4915-a3b4-8d3e4abfa5f9",
+    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators",
+    "product":"smartphone",
     "emotion":"excited",
-    "created_at":"2024-05-10 01:55:10"
+    "created_at":"2024-10-21 22:53:47"
   },
   {
-    "author_id":"7cf71953-b978-4d5a-8a38-dc0c2e702538",
-    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
-    "product":"reusable water bottle",
-    "emotion":"content",
-    "created_at":"2023-09-01 14:26:14"
-  },
-  {
-    "author_id":"4f6d1133-932b-4a91-a1a5-44dd06982cdc",
-    "tribe":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
-    "product":"designer laptop",
-    "emotion":"excited",
-    "created_at":"2024-06-05 21:53:23"
-  },
-  {
-    "author_id":"5928b8b6-90b8-4742-8df8-c6e29250a90f",
+    "author_id":"567eca8b-78d7-4b3a-a704-9839511269e1",
     "tribe":"College Students - Campus Life (UCLA \/ USC)",
     "product":"textbooks",
+    "emotion":"curious",
+    "created_at":"2023-08-30 10:22:49"
+  },
+  {
+    "author_id":"37296c8e-cef3-41ad-8472-8d6f27ee94c2",
+    "tribe":"College Students - Campus Life (UCLA \/ USC)",
+    "product":"textbooks",
+    "emotion":"satisfied",
+    "created_at":"2023-06-17 03:43:49"
+  },
+  {
+    "author_id":"2a2fbf83-98ec-494a-8529-9a987738c8f4",
+    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators",
+    "product":"smartwatch",
+    "emotion":"excited",
+    "created_at":"2024-04-28 07:39:43"
+  },
+  {
+    "author_id":"fecdf4a0-223f-4d8f-a5ca-d1331fc1d52d",
+    "tribe":"Creative Entrepreneurs - Hollywood Creatives",
+    "product":"designer laptop",
+    "emotion":"content",
+    "created_at":"2024-11-11 13:12:34"
+  },
+  {
+    "author_id":"19e940bb-c736-4371-96ad-b03279a87f63",
+    "tribe":"College Students - Campus Life (UCLA \/ USC)",
+    "product":"headphones",
     "emotion":"motivated",
-    "created_at":"2024-01-21 21:21:40"
+    "created_at":"2023-07-23 12:06:11"
   },
   {
-    "author_id":"54d8b525-fb4e-4f2a-9a7e-0bf3992e8fce",
-    "tribe":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
-    "product":"smartphone",
-    "emotion":"relaxed",
-    "created_at":"2024-03-06 18:51:50"
+    "author_id":"2756dafa-61ba-4f36-acd7-0673a0e660d1",
+    "tribe":"Young Professional Women - Urban Explorers",
+    "product":"stylish sunglasses",
+    "emotion":"curious",
+    "created_at":"2023-11-05 12:47:37"
   },
   {
-    "author_id":"7c1834f1-b656-43f6-b2b4-ebe202181ae3",
-    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles (Beverly Hills \/ Bel Air)",
+    "author_id":"32e07015-6644-48c8-8393-d94bc9cb2cb4",
+    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles",
+    "product":"high-end camera",
+    "emotion":"content",
+    "created_at":"2024-08-27 02:19:16"
+  },
+  {
+    "author_id":"aaac0596-7ac8-45a2-9ee8-e8f28f79cccb",
+    "tribe":"College Students - Campus Life (UCLA \/ USC)",
+    "product":"backpack",
+    "emotion":"motivated",
+    "created_at":"2024-12-26 23:48:25"
+  },
+  {
+    "author_id":"d88cc15f-de27-4dfc-a192-8ba61b67be47",
+    "tribe":"Creative Entrepreneurs - Hollywood Creatives",
+    "product":"luxury watch",
+    "emotion":"creative",
+    "created_at":"2024-07-08 17:09:12"
+  },
+  {
+    "author_id":"b5920ba5-fb84-47f4-8015-20e1be2db06f",
+    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles",
     "product":"gourmet food subscription",
     "emotion":"content",
-    "created_at":"2023-09-04 16:12:25"
+    "created_at":"2023-12-26 01:29:57"
   },
   {
-    "author_id":"6260f019-f6d7-42ef-90f9-01d6e82614f7",
-    "tribe":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
-    "product":"travel bag",
-    "emotion":"curious",
-    "created_at":"2024-12-05 13:49:27"
+    "author_id":"9e18fc18-9379-41e4-a3d0-15478b1d8a2d",
+    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators",
+    "product":"tablet",
+    "emotion":"innovative",
+    "created_at":"2023-09-07 11:15:14"
   },
   {
-    "author_id":"6b42b40a-d437-4d65-8a06-8f72b278526a",
-    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles (Beverly Hills \/ Bel Air)",
-    "product":"gourmet food subscription",
-    "emotion":"relaxed",
-    "created_at":"2023-01-19 11:04:00"
-  },
-  {
-    "author_id":"034f5980-1a31-4c13-8aae-87d38c292043",
-    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
-    "product":"solar-powered charger",
-    "emotion":"eco-friendly",
-    "created_at":"2024-07-22 11:37:06"
-  },
-  {
-    "author_id":"e425d9ed-5040-4ba1-a6d7-44d563f3aaac",
-    "tribe":"College Students - Campus Life (UCLA \/ USC)",
-    "product":"coffee maker",
-    "emotion":"curious",
-    "created_at":"2024-02-19 19:27:48"
-  },
-  {
-    "author_id":"fdf2083e-b978-4264-961d-3786b451bdcd",
-    "tribe":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
-    "product":"fitness tracker",
-    "emotion":"adventurous",
-    "created_at":"2024-06-08 17:19:38"
-  },
-  {
-    "author_id":"0eed4452-03c2-4702-aa19-e282b5e97d4f",
-    "tribe":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
-    "product":"compact camera",
-    "emotion":"adventurous",
-    "created_at":"2023-05-03 13:18:44"
-  },
-  {
-    "author_id":"eb5ecaa8-1143-4862-91a8-aef13a8e74c1",
-    "tribe":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
-    "product":"stylish sunglasses",
-    "emotion":"excited",
-    "created_at":"2023-08-30 22:16:40"
-  },
-  {
-    "author_id":"3aef6f4f-8a4d-40a3-81ab-83c1d0489a6a",
-    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators (Venice Beach \/ Santa Monica)",
-    "product":"smartwatch",
-    "emotion":"curious",
-    "created_at":"2023-06-01 17:07:50"
-  },
-  {
-    "author_id":"43419653-c124-4d3e-b5c5-b492df9408f5",
-    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles (Beverly Hills \/ Bel Air)",
-    "product":"gourmet food subscription",
+    "author_id":"17cacd8f-d6c6-49f1-8d52-76f8e8c3a652",
+    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles",
+    "product":"high-end camera",
     "emotion":"luxurious",
-    "created_at":"2023-12-23 09:09:40"
+    "created_at":"2023-10-24 00:57:05"
   },
   {
-    "author_id":"bc4611df-0707-4c3f-ae01-0a39b72b0e03",
-    "tribe":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
-    "product":"fitness tracker",
-    "emotion":"curious",
-    "created_at":"2024-10-01 07:57:27"
-  },
-  {
-    "author_id":"58afbdd5-f25d-43c8-88f4-8abf5d780668",
-    "tribe":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
-    "product":"creative tools",
-    "emotion":"excited",
-    "created_at":"2023-09-12 16:47:46"
-  },
-  {
-    "author_id":"4b37f37b-bdac-4993-bd15-763f76a7d5d0",
-    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles (Beverly Hills \/ Bel Air)",
-    "product":"high-end camera",
-    "emotion":"relaxed",
-    "created_at":"2024-11-11 19:58:08"
-  },
-  {
-    "author_id":"f8e5c0d2-04e1-4971-abc6-59ee3107bcb8",
-    "tribe":"College Students - Campus Life (UCLA \/ USC)",
-    "product":"coffee maker",
-    "emotion":"excited",
-    "created_at":"2023-01-26 03:49:34"
-  },
-  {
-    "author_id":"034f5980-1a31-4c13-8aae-87d38c292043",
-    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
-    "product":"electric bike",
-    "emotion":"content",
-    "created_at":"2023-04-25 05:24:06"
-  },
-  {
-    "author_id":"bf497f81-b180-4600-9273-ddf715cf69e0",
-    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators (Venice Beach \/ Santa Monica)",
-    "product":"laptop",
-    "emotion":"excited",
-    "created_at":"2024-01-23 19:04:18"
-  },
-  {
-    "author_id":"fe4e65fd-d205-49f5-85e4-eb1d71d33b21",
-    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
-    "product":"organic skincare",
-    "emotion":"content",
-    "created_at":"2023-12-31 13:39:28"
-  },
-  {
-    "author_id":"7207993d-bf38-4445-8342-6fbde4d89357",
-    "tribe":"College Students - Campus Life (UCLA \/ USC)",
-    "product":"laptop",
-    "emotion":"excited",
-    "created_at":"2024-08-08 07:55:49"
-  },
-  {
-    "author_id":"0fb28084-7bff-49c8-b285-2a2309f981d6",
-    "tribe":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
-    "product":"creative tools",
-    "emotion":"content",
-    "created_at":"2024-07-02 14:40:09"
-  },
-  {
-    "author_id":"5d180ffc-3004-426f-8428-2e83f275b368",
-    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators (Venice Beach \/ Santa Monica)",
-    "product":"smartphone",
-    "emotion":"excited",
-    "created_at":"2024-11-04 05:56:26"
-  },
-  {
-    "author_id":"54938627-709b-4096-ae31-2a281aced443",
-    "tribe":"College Students - Campus Life (UCLA \/ USC)",
-    "product":"laptop",
-    "emotion":"curious",
-    "created_at":"2024-10-29 17:24:06"
-  },
-  {
-    "author_id":"062be31b-1c4d-4857-997a-c4cb96115db3",
-    "tribe":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
-    "product":"smartphone",
-    "emotion":"excited",
-    "created_at":"2024-08-01 00:22:07"
-  },
-  {
-    "author_id":"610321fc-3e81-4f85-a882-84cedeb1467d",
-    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles (Beverly Hills \/ Bel Air)",
-    "product":"high-end camera",
-    "emotion":"content",
-    "created_at":"2023-11-12 02:22:30"
-  },
-  {
-    "author_id":"33d52cc8-0d2e-4420-975c-40c48ca9793a",
-    "tribe":"College Students - Campus Life (UCLA \/ USC)",
-    "product":"textbooks",
-    "emotion":"curious",
-    "created_at":"2023-08-31 12:13:28"
-  },
-  {
-    "author_id":"447c97fa-dc7c-45c9-8b28-cb5164cbef37",
-    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
-    "product":"electric bike",
-    "emotion":"eco-friendly",
-    "created_at":"2024-08-12 13:44:40"
-  },
-  {
-    "author_id":"acece869-d14b-432b-a28d-3980c610349c",
-    "tribe":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
-    "product":"fitness tracker",
-    "emotion":"relaxed",
-    "created_at":"2023-02-05 15:28:49"
-  },
-  {
-    "author_id":"872c62de-d60b-49e3-9b9f-38dc854e2183",
-    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators (Venice Beach \/ Santa Monica)",
-    "product":"laptop",
-    "emotion":"innovative",
-    "created_at":"2024-03-11 16:47:17"
-  },
-  {
-    "author_id":"56953b4e-ea40-4fc1-b4a2-132c1ba586b9",
-    "tribe":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
-    "product":"smartphone",
-    "emotion":"adventurous",
-    "created_at":"2024-02-10 16:34:28"
-  },
-  {
-    "author_id":"baa9c65f-a16c-4a0c-afdc-0f18b848fb5c",
-    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators (Venice Beach \/ Santa Monica)",
-    "product":"tablet",
-    "emotion":"satisfied",
-    "created_at":"2023-11-11 07:23:03"
-  },
-  {
-    "author_id":"aaee5e52-8feb-42db-b9e2-6e602f75690c",
+    "author_id":"7e56e9f5-49e8-404d-86e2-83e8f21ecfca",
     "tribe":"College Students - Campus Life (UCLA \/ USC)",
     "product":"backpack",
     "emotion":"excited",
-    "created_at":"2024-09-17 04:18:26"
+    "created_at":"2024-02-09 17:21:08"
   },
   {
-    "author_id":"97a55503-5fb5-43f2-a4c2-eecbf9f65fdd",
-    "tribe":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
-    "product":"designer laptop",
-    "emotion":"inspired",
-    "created_at":"2024-07-04 15:02:23"
-  },
-  {
-    "author_id":"447c97fa-dc7c-45c9-8b28-cb5164cbef37",
-    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
-    "product":"organic skincare",
-    "emotion":"relaxed",
-    "created_at":"2024-03-14 01:39:36"
-  },
-  {
-    "author_id":"7a9979d6-5e6e-4e66-bded-18c40ef495ec",
+    "author_id":"fa7dc231-0722-42fa-b8d4-3b79ee56418d",
     "tribe":"College Students - Campus Life (UCLA \/ USC)",
-    "product":"headphones",
-    "emotion":"motivated",
-    "created_at":"2024-11-06 05:38:19"
-  },
-  {
-    "author_id":"8165f65a-1aaa-473a-bf13-8493c1823fcb",
-    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
-    "product":"solar-powered charger",
-    "emotion":"satisfied",
-    "created_at":"2024-09-15 23:06:02"
-  },
-  {
-    "author_id":"d3b7a905-1303-4270-add1-5d616a83daaf",
-    "tribe":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
-    "product":"stylish sunglasses",
-    "emotion":"curious",
-    "created_at":"2024-08-27 13:52:07"
-  },
-  {
-    "author_id":"ed9d87a0-d5e8-488c-9129-4aee8a73b2e9",
-    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators (Venice Beach \/ Santa Monica)",
     "product":"laptop",
     "emotion":"curious",
-    "created_at":"2024-06-23 14:45:26"
+    "created_at":"2024-01-03 13:42:27"
   },
   {
-    "author_id":"c11daa50-3a56-42c5-9c6e-fbb9a8ae9912",
-    "tribe":"College Students - Campus Life (UCLA \/ USC)",
-    "product":"textbooks",
-    "emotion":"excited",
-    "created_at":"2024-08-03 17:06:04"
+    "author_id":"4a0a11a1-9283-4094-baa8-7f61d905f79b",
+    "tribe":"Creative Entrepreneurs - Hollywood Creatives",
+    "product":"smartphone",
+    "emotion":"content",
+    "created_at":"2024-06-21 20:18:20"
   },
   {
-    "author_id":"2fe7a3e3-6485-4990-bc53-c41d3188203d",
-    "tribe":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
-    "product":"designer laptop",
-    "emotion":"creative",
-    "created_at":"2023-02-01 03:06:13"
-  },
-  {
-    "author_id":"e6c2533e-3569-4ab1-bfd4-3227b9c1b918",
-    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators (Venice Beach \/ Santa Monica)",
-    "product":"tablet",
-    "emotion":"innovative",
-    "created_at":"2023-12-15 12:33:57"
-  },
-  {
-    "author_id":"a378b99d-ea36-4387-93da-c7feea228953",
-    "tribe":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
-    "product":"compact camera",
-    "emotion":"relaxed",
-    "created_at":"2024-02-17 23:58:54"
-  },
-  {
-    "author_id":"e64bcdb8-a7a1-43e2-adac-10c6c1f9e568",
-    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
-    "product":"bamboo toothbrush",
-    "emotion":"relaxed",
-    "created_at":"2024-06-03 04:43:43"
-  },
-  {
-    "author_id":"fb062d35-1e26-4d20-8171-b93a87395fe3",
-    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles (Beverly Hills \/ Bel Air)",
-    "product":"high-end camera",
-    "emotion":"satisfied",
-    "created_at":"2023-08-03 11:28:15"
-  },
-  {
-    "author_id":"33ac5277-6e73-4549-9319-05b392125941",
+    "author_id":"69c8c9a0-c682-4d15-8599-3f938d0bc45e",
     "tribe":"College Students - Campus Life (UCLA \/ USC)",
     "product":"headphones",
+    "emotion":"curious",
+    "created_at":"2024-03-15 05:21:02"
+  },
+  {
+    "author_id":"d479b05d-9f99-4975-a6d8-9ed75f776d54",
+    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators",
+    "product":"smartphone",
+    "emotion":"innovative",
+    "created_at":"2024-04-30 08:00:41"
+  },
+  {
+    "author_id":"452d8e73-dae8-44b9-b7a8-ddfc997e95e3",
+    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles",
+    "product":"high-end camera",
     "emotion":"satisfied",
-    "created_at":"2024-03-05 17:55:31"
+    "created_at":"2023-01-12 03:16:27"
   },
   {
-    "author_id":"a3723dd5-aefc-47c1-bec5-a26365f8d782",
-    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
-    "product":"bamboo toothbrush",
+    "author_id":"3c8688da-1499-4835-9ae6-e7aa98db2a2d",
+    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle",
+    "product":"reusable water bottle",
     "emotion":"satisfied",
-    "created_at":"2024-06-11 09:05:36"
+    "created_at":"2024-12-10 17:44:59"
   },
   {
-    "author_id":"80338919-4806-4b83-8193-986472fb80f9",
-    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators (Venice Beach \/ Santa Monica)",
-    "product":"wireless earbuds",
-    "emotion":"satisfied",
-    "created_at":"2023-08-07 04:01:35"
+    "author_id":"78c01085-66a7-4694-ac47-d69d28de6889",
+    "tribe":"Creative Entrepreneurs - Hollywood Creatives",
+    "product":"smartphone",
+    "emotion":"inspired",
+    "created_at":"2024-12-25 12:36:01"
   },
   {
-    "author_id":"f9a82b27-73d0-45e7-8599-5b473189fd58",
-    "tribe":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
-    "product":"luxury watch",
-    "emotion":"excited",
-    "created_at":"2023-02-14 08:26:58"
-  },
-  {
-    "author_id":"4ec880a9-4791-4afe-9184-f98abb0602dc",
-    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles (Beverly Hills \/ Bel Air)",
-    "product":"luxury watch",
-    "emotion":"content",
-    "created_at":"2024-09-29 04:27:36"
-  },
-  {
-    "author_id":"ae31950c-37bf-4764-9189-1cde640620a5",
-    "tribe":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
-    "product":"travel bag",
-    "emotion":"relaxed",
-    "created_at":"2024-01-29 20:58:32"
-  },
-  {
-    "author_id":"3561b1dd-9e61-451c-ad70-cce026224040",
-    "tribe":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
-    "product":"travel bag",
-    "emotion":"excited",
-    "created_at":"2023-08-23 08:47:21"
-  },
-  {
-    "author_id":"75fd1d5f-6972-49d6-920b-f30bf9a7069f",
-    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles (Beverly Hills \/ Bel Air)",
+    "author_id":"fa52bcbe-fcb0-4292-b4a8-c3a0b2667998",
+    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles",
     "product":"luxury car",
     "emotion":"relaxed",
-    "created_at":"2024-07-18 16:57:46"
+    "created_at":"2024-03-04 11:36:26"
   },
   {
-    "author_id":"ac60c565-7838-4c01-94ea-adde826d9b9c",
-    "tribe":"College Students - Campus Life (UCLA \/ USC)",
-    "product":"headphones",
-    "emotion":"curious",
-    "created_at":"2023-07-25 04:51:33"
-  },
-  {
-    "author_id":"8ba6f562-9c2d-44f2-8e92-86bb8d8a1023",
-    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles (Beverly Hills \/ Bel Air)",
-    "product":"luxury car",
-    "emotion":"satisfied",
-    "created_at":"2024-08-01 07:18:36"
-  },
-  {
-    "author_id":"20dddfb6-a4eb-490c-ab54-f5b73e5e55d6",
-    "tribe":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
-    "product":"smartphone",
-    "emotion":"curious",
-    "created_at":"2023-01-22 12:32:26"
-  },
-  {
-    "author_id":"0420ff9a-1ee2-4faf-815f-7972ecf567b6",
-    "tribe":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
-    "product":"stylish sunglasses",
-    "emotion":"relaxed",
-    "created_at":"2023-01-07 04:43:32"
-  },
-  {
-    "author_id":"b106df18-ab9d-468e-b9c9-0202ea2d16b7",
-    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators (Venice Beach \/ Santa Monica)",
-    "product":"smartwatch",
-    "emotion":"innovative",
-    "created_at":"2024-12-10 19:35:45"
-  },
-  {
-    "author_id":"b96f873c-75bc-49ff-a058-69bfea2fe898",
-    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
-    "product":"electric bike",
-    "emotion":"relaxed",
-    "created_at":"2023-07-17 14:43:47"
-  },
-  {
-    "author_id":"5a81be41-bc92-4d82-84ed-1eeb75ab9ed2",
-    "tribe":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
-    "product":"creative tools",
-    "emotion":"inspired",
-    "created_at":"2023-02-17 00:42:17"
-  },
-  {
-    "author_id":"153eab0c-a549-419e-840a-ced06d831098",
-    "tribe":"College Students - Campus Life (UCLA \/ USC)",
-    "product":"laptop",
-    "emotion":"satisfied",
-    "created_at":"2024-09-01 14:51:57"
-  },
-  {
-    "author_id":"1ac962b1-a3df-431e-8a29-1abee81c0ec2",
-    "tribe":"College Students - Campus Life (UCLA \/ USC)",
-    "product":"backpack",
-    "emotion":"satisfied",
-    "created_at":"2023-01-23 19:26:15"
-  },
-  {
-    "author_id":"6747d2b9-b204-426a-89bd-2b2309880d60",
-    "tribe":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
-    "product":"stylish sunglasses",
-    "emotion":"adventurous",
-    "created_at":"2023-07-31 01:15:17"
-  },
-  {
-    "author_id":"2cf4bcbb-7ae8-4be4-807f-f5b325801407",
-    "tribe":"College Students - Campus Life (UCLA \/ USC)",
-    "product":"laptop",
-    "emotion":"motivated",
-    "created_at":"2024-09-13 00:43:37"
-  },
-  {
-    "author_id":"03fa8d8f-db15-4806-9494-c31a6e455f8a",
-    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators (Venice Beach \/ Santa Monica)",
-    "product":"smartwatch",
-    "emotion":"satisfied",
-    "created_at":"2023-05-04 21:13:46"
-  },
-  {
-    "author_id":"aed1687c-c24a-4d69-9171-2561d717193c",
-    "tribe":"College Students - Campus Life (UCLA \/ USC)",
-    "product":"backpack",
-    "emotion":"curious",
-    "created_at":"2023-01-27 20:24:20"
-  },
-  {
-    "author_id":"ef79e932-d2c7-4509-b10e-1505c2c18a69",
-    "tribe":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
+    "author_id":"811f1c22-c01a-4606-b0c5-5a317dcf19c8",
+    "tribe":"Creative Entrepreneurs - Hollywood Creatives",
     "product":"luxury watch",
-    "emotion":"creative",
-    "created_at":"2023-06-07 23:48:00"
-  },
-  {
-    "author_id":"03643863-0680-43fc-ad7f-dc2f93b2d840",
-    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators (Venice Beach \/ Santa Monica)",
-    "product":"tablet",
-    "emotion":"curious",
-    "created_at":"2023-08-24 02:42:25"
-  },
-  {
-    "author_id":"05f5b2af-37cd-4dd7-9ed4-d23e31b23e7d",
-    "tribe":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
-    "product":"high-end camera",
-    "emotion":"inspired",
-    "created_at":"2024-07-04 21:34:40"
-  },
-  {
-    "author_id":"511acca9-2f97-461c-b44a-bc1e27e3d028",
-    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
-    "product":"solar-powered charger",
-    "emotion":"relaxed",
-    "created_at":"2023-06-04 08:41:59"
-  },
-  {
-    "author_id":"0ad8297f-8b05-4574-97d3-1cbd3ba61451",
-    "tribe":"College Students - Campus Life (UCLA \/ USC)",
-    "product":"textbooks",
-    "emotion":"satisfied",
-    "created_at":"2024-10-06 02:54:22"
-  },
-  {
-    "author_id":"28c984b3-b8d9-4259-a771-63123ff96dc5",
-    "tribe":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
-    "product":"compact camera",
-    "emotion":"excited",
-    "created_at":"2024-01-19 09:58:14"
-  },
-  {
-    "author_id":"2d4069c1-0844-4f1e-8502-7359b0d3242c",
-    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators (Venice Beach \/ Santa Monica)",
-    "product":"smartphone",
-    "emotion":"curious",
-    "created_at":"2023-09-30 01:22:12"
-  },
-  {
-    "author_id":"0fb28084-7bff-49c8-b285-2a2309f981d6",
-    "tribe":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
-    "product":"high-end camera",
-    "emotion":"creative",
-    "created_at":"2023-06-09 22:47:56"
-  },
-  {
-    "author_id":"670f2a96-8203-41df-9728-93092e53e18e",
-    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
-    "product":"reusable water bottle",
-    "emotion":"relaxed",
-    "created_at":"2023-03-20 02:41:46"
-  },
-  {
-    "author_id":"f1f606c1-5b8f-4896-a8a9-706e8e0840ac",
-    "tribe":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
-    "product":"smartphone",
     "emotion":"content",
-    "created_at":"2023-09-22 19:39:13"
+    "created_at":"2023-04-09 20:30:24"
   },
   {
-    "author_id":"9cdd51c5-5d1c-4ded-ba2f-0b287820e50f",
+    "author_id":"b0be4023-f830-4581-9c61-f40cc3af0ae5",
+    "tribe":"Creative Entrepreneurs - Hollywood Creatives",
+    "product":"high-end camera",
+    "emotion":"content",
+    "created_at":"2023-02-15 02:59:51"
+  },
+  {
+    "author_id":"b1e88853-37b2-4eb1-9e33-0a20ffddbd88",
     "tribe":"College Students - Campus Life (UCLA \/ USC)",
     "product":"coffee maker",
-    "emotion":"motivated",
-    "created_at":"2023-07-27 02:16:15"
+    "emotion":"satisfied",
+    "created_at":"2023-04-04 11:08:27"
   },
   {
-    "author_id":"a383d291-e16f-44cb-80e1-bac2c3f48106",
-    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
-    "product":"reusable water bottle",
+    "author_id":"c2f5a4b3-78ca-4c1f-9fed-7eefc9e7a6da",
+    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle",
+    "product":"organic skincare",
     "emotion":"eco-friendly",
-    "created_at":"2023-03-29 18:01:51"
+    "created_at":"2024-10-06 23:52:03"
   },
   {
-    "author_id":"412e38ee-86d6-4a78-ab43-ed0d04bcff3a",
-    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles (Beverly Hills \/ Bel Air)",
-    "product":"premium wine",
-    "emotion":"content",
-    "created_at":"2023-04-10 13:07:35"
+    "author_id":"8d9d120b-6063-440d-8153-4e8e6ba12b64",
+    "tribe":"Young Professional Women - Urban Explorers",
+    "product":"travel bag",
+    "emotion":"relaxed",
+    "created_at":"2024-08-02 05:31:33"
   },
   {
-    "author_id":"96f29970-0052-49b6-afab-e178e7bd867f",
-    "tribe":"College Students - Campus Life (UCLA \/ USC)",
-    "product":"coffee maker",
-    "emotion":"satisfied",
-    "created_at":"2023-03-21 03:08:38"
-  },
-  {
-    "author_id":"9b3afa8b-7eaa-476a-87a9-6478777ec017",
-    "tribe":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
-    "product":"smartphone",
+    "author_id":"685fce09-4968-455d-8e61-061800807b88",
+    "tribe":"Young Professional Women - Urban Explorers",
+    "product":"fitness tracker",
     "emotion":"excited",
-    "created_at":"2023-09-18 03:23:12"
+    "created_at":"2024-09-14 07:44:40"
   },
   {
-    "author_id":"ae688d44-6810-4ca7-b15d-798520ba6bca",
+    "author_id":"d72155f1-d054-4987-af6f-5fbca51b4ff2",
     "tribe":"College Students - Campus Life (UCLA \/ USC)",
-    "product":"backpack",
-    "emotion":"motivated",
-    "created_at":"2024-09-06 04:49:55"
+    "product":"laptop",
+    "emotion":"satisfied",
+    "created_at":"2023-08-12 14:12:33"
   },
   {
-    "author_id":"4e4acd2c-bfd0-41d8-bb29-fce03c414a09",
-    "tribe":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
-    "product":"smartphone",
-    "emotion":"inspired",
-    "created_at":"2024-07-05 14:01:05"
+    "author_id":"4bad1fb4-cc7f-4f4e-9344-f59570fb398a",
+    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators",
+    "product":"tablet",
+    "emotion":"excited",
+    "created_at":"2024-11-02 13:20:25"
   },
   {
-    "author_id":"1edae53b-d901-41df-aace-41fc2dc04b4b",
-    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
-    "product":"solar-powered charger",
-    "emotion":"content",
-    "created_at":"2024-12-30 23:40:02"
-  },
-  {
-    "author_id":"a383d291-e16f-44cb-80e1-bac2c3f48106",
-    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
-    "product":"bamboo toothbrush",
-    "emotion":"content",
-    "created_at":"2023-06-12 15:52:19"
-  },
-  {
-    "author_id":"fe592152-d9fd-40e3-9388-d5bc47ab357f",
-    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles (Beverly Hills \/ Bel Air)",
-    "product":"premium wine",
-    "emotion":"luxurious",
-    "created_at":"2023-08-17 23:42:28"
-  },
-  {
-    "author_id":"4df88077-49df-482b-bdab-22318763d3fa",
-    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators (Venice Beach \/ Santa Monica)",
+    "author_id":"d80ef5a5-8b30-42c7-a0d8-2e99aa08c3cf",
+    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators",
     "product":"wireless earbuds",
     "emotion":"curious",
-    "created_at":"2024-04-28 20:57:36"
+    "created_at":"2024-06-07 03:43:49"
   },
   {
-    "author_id":"73f9c0f3-8a93-4630-b6c9-9b861aff9586",
-    "tribe":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
+    "author_id":"4982a7b7-d3d2-49df-9618-d50dc4b70f4e",
+    "tribe":"Creative Entrepreneurs - Hollywood Creatives",
+    "product":"designer laptop",
+    "emotion":"creative",
+    "created_at":"2024-09-20 01:41:07"
+  },
+  {
+    "author_id":"65d720ad-f85e-4d36-ba9e-7320bf1c8248",
+    "tribe":"Young Professional Women - Urban Explorers",
+    "product":"compact camera",
+    "emotion":"adventurous",
+    "created_at":"2024-07-15 10:20:52"
+  },
+  {
+    "author_id":"1093fe4b-1ff1-4909-8c0a-74a21963cb73",
+    "tribe":"Creative Entrepreneurs - Hollywood Creatives",
+    "product":"creative tools",
+    "emotion":"creative",
+    "created_at":"2023-06-15 08:01:29"
+  },
+  {
+    "author_id":"16d8348f-f71f-46d2-bbc7-38cd9530cf4c",
+    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle",
+    "product":"electric bike",
+    "emotion":"eco-friendly",
+    "created_at":"2024-09-20 13:18:26"
+  },
+  {
+    "author_id":"e2efa246-b46f-47b8-b313-80785fac48b2",
+    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators",
+    "product":"wireless earbuds",
+    "emotion":"excited",
+    "created_at":"2024-06-24 10:25:08"
+  },
+  {
+    "author_id":"006b3c5f-6ccf-4f13-95aa-7862c061877a",
+    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators",
+    "product":"wireless earbuds",
+    "emotion":"innovative",
+    "created_at":"2023-11-27 15:32:40"
+  },
+  {
+    "author_id":"ebc83ef8-5ce1-43bf-bc1c-bb8d2cd0b60e",
+    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle",
+    "product":"reusable water bottle",
+    "emotion":"eco-friendly",
+    "created_at":"2024-06-30 05:08:59"
+  },
+  {
+    "author_id":"cec2d748-70f3-409f-b129-78665637c9c6",
+    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators",
+    "product":"tablet",
+    "emotion":"curious",
+    "created_at":"2023-05-06 18:29:53"
+  },
+  {
+    "author_id":"2b078c34-388b-40cf-be6e-37ccd8e5a1ac",
+    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles",
+    "product":"luxury watch",
+    "emotion":"relaxed",
+    "created_at":"2023-12-13 04:28:59"
+  },
+  {
+    "author_id":"58d71489-4321-495c-8001-f81d990bde5a",
+    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators",
+    "product":"laptop",
+    "emotion":"excited",
+    "created_at":"2023-11-28 02:04:27"
+  },
+  {
+    "author_id":"97b6afe1-9595-459c-8ee9-9fc020e2b43f",
+    "tribe":"College Students - Campus Life (UCLA \/ USC)",
+    "product":"headphones",
+    "emotion":"excited",
+    "created_at":"2023-12-09 16:19:11"
+  },
+  {
+    "author_id":"17280139-84f5-4095-8bfd-4fe0481b6cea",
+    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators",
+    "product":"smartwatch",
+    "emotion":"curious",
+    "created_at":"2024-05-28 19:29:37"
+  },
+  {
+    "author_id":"f2cf3d6d-ca76-4702-8695-fce472f5e6ac",
+    "tribe":"College Students - Campus Life (UCLA \/ USC)",
+    "product":"coffee maker",
+    "emotion":"motivated",
+    "created_at":"2024-06-06 18:34:03"
+  },
+  {
+    "author_id":"fac0c2aa-329c-43fb-84cf-16048117d3a3",
+    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle",
+    "product":"electric bike",
+    "emotion":"content",
+    "created_at":"2023-10-30 14:06:45"
+  },
+  {
+    "author_id":"86c18077-dd12-4394-9f8c-2068d0cce120",
+    "tribe":"Young Professional Women - Urban Explorers",
+    "product":"fitness tracker",
+    "emotion":"adventurous",
+    "created_at":"2024-01-30 17:09:16"
+  },
+  {
+    "author_id":"67817a7a-7165-4f12-852e-3ce309f9b410",
+    "tribe":"College Students - Campus Life (UCLA \/ USC)",
+    "product":"laptop",
+    "emotion":"excited",
+    "created_at":"2024-07-13 18:09:04"
+  },
+  {
+    "author_id":"86c18077-dd12-4394-9f8c-2068d0cce120",
+    "tribe":"Young Professional Women - Urban Explorers",
+    "product":"stylish sunglasses",
+    "emotion":"relaxed",
+    "created_at":"2023-05-17 19:11:53"
+  },
+  {
+    "author_id":"6b8b42de-eaa0-4eda-9b8a-9ec7865d948d",
+    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles",
+    "product":"premium wine",
+    "emotion":"relaxed",
+    "created_at":"2024-04-12 15:12:26"
+  },
+  {
+    "author_id":"06300a82-40d4-4ac3-bae5-f6eb105d7280",
+    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators",
+    "product":"laptop",
+    "emotion":"innovative",
+    "created_at":"2023-08-11 01:49:45"
+  },
+  {
+    "author_id":"4b5e0695-b51a-41a0-8a57-254378ab23e7",
+    "tribe":"Young Professional Women - Urban Explorers",
+    "product":"smartphone",
+    "emotion":"curious",
+    "created_at":"2023-01-25 03:20:04"
+  },
+  {
+    "author_id":"45bef174-1f2b-49d3-8e5b-ae5fc0c7b22a",
+    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles",
+    "product":"gourmet food subscription",
+    "emotion":"relaxed",
+    "created_at":"2024-05-01 08:43:45"
+  },
+  {
+    "author_id":"30384471-805d-49b7-b687-590244b23f35",
+    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators",
+    "product":"laptop",
+    "emotion":"curious",
+    "created_at":"2023-12-27 21:11:57"
+  },
+  {
+    "author_id":"b03e9f81-fd7d-41fb-8c7c-c7db46f22514",
+    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators",
+    "product":"smartwatch",
+    "emotion":"satisfied",
+    "created_at":"2024-01-13 21:34:51"
+  },
+  {
+    "author_id":"de4e6ae7-c64a-44f3-b636-3ae099c66939",
+    "tribe":"Young Professional Women - Urban Explorers",
     "product":"compact camera",
     "emotion":"curious",
-    "created_at":"2023-07-05 18:17:35"
+    "created_at":"2023-11-14 10:06:14"
   },
   {
-    "author_id":"3c92fd43-bc03-4b6c-9242-716ab6df4a0b",
-    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
-    "product":"electric bike",
+    "author_id":"7a12b19e-4f8f-4cc1-94f2-9a96d3d0fa75",
+    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles",
+    "product":"luxury watch",
+    "emotion":"luxurious",
+    "created_at":"2024-01-20 00:30:57"
+  },
+  {
+    "author_id":"921979bd-2cb4-41ab-b480-415f1f032248",
+    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles",
+    "product":"high-end camera",
+    "emotion":"relaxed",
+    "created_at":"2024-08-30 22:55:49"
+  },
+  {
+    "author_id":"6f0c6097-6c37-4c7e-b435-39f534dd4d9c",
+    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators",
+    "product":"tablet",
     "emotion":"satisfied",
-    "created_at":"2023-04-29 20:27:33"
+    "created_at":"2023-10-12 23:56:36"
   },
   {
-    "author_id":"823bdea9-f88d-4d36-ace4-01c180439f14",
-    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles (Beverly Hills \/ Bel Air)",
+    "author_id":"0c5dc333-bdb8-4225-9c87-0cf32bc79841",
+    "tribe":"Young Professional Women - Urban Explorers",
+    "product":"smartphone",
+    "emotion":"adventurous",
+    "created_at":"2024-01-20 05:34:48"
+  },
+  {
+    "author_id":"aa9365d8-4fb8-4ad6-b2e9-ae256cbc6972",
+    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle",
+    "product":"organic skincare",
+    "emotion":"relaxed",
+    "created_at":"2024-04-22 02:25:26"
+  },
+  {
+    "author_id":"811f1c22-c01a-4606-b0c5-5a317dcf19c8",
+    "tribe":"Creative Entrepreneurs - Hollywood Creatives",
+    "product":"creative tools",
+    "emotion":"inspired",
+    "created_at":"2024-11-19 14:09:21"
+  },
+  {
+    "author_id":"fbbf8738-bd2d-4c51-a78d-88b3d2bca91c",
+    "tribe":"Creative Entrepreneurs - Hollywood Creatives",
+    "product":"high-end camera",
+    "emotion":"excited",
+    "created_at":"2024-10-29 21:51:04"
+  },
+  {
+    "author_id":"dc701a79-9384-474f-b77f-bd4a6436664c",
+    "tribe":"College Students - Campus Life (UCLA \/ USC)",
+    "product":"coffee maker",
+    "emotion":"excited",
+    "created_at":"2023-09-17 07:27:54"
+  },
+  {
+    "author_id":"576b860d-fb06-4d7a-bf6f-b9f6ce6f56ea",
+    "tribe":"College Students - Campus Life (UCLA \/ USC)",
+    "product":"coffee maker",
+    "emotion":"curious",
+    "created_at":"2023-11-29 19:02:36"
+  },
+  {
+    "author_id":"ef77e108-1904-4620-a001-aec53a5e1f55",
+    "tribe":"Creative Entrepreneurs - Hollywood Creatives",
+    "product":"designer laptop",
+    "emotion":"excited",
+    "created_at":"2024-08-07 09:18:38"
+  },
+  {
+    "author_id":"665cd9ac-ae2c-4ae9-9497-289475ee9562",
+    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle",
+    "product":"organic skincare",
+    "emotion":"content",
+    "created_at":"2023-12-13 19:44:33"
+  },
+  {
+    "author_id":"852b34a7-9cf0-45e5-ab62-67627365a4f6",
+    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles",
+    "product":"premium wine",
+    "emotion":"content",
+    "created_at":"2024-01-17 06:39:01"
+  },
+  {
+    "author_id":"1a7c86cd-5b65-4820-b1bd-1937e1f993f7",
+    "tribe":"Creative Entrepreneurs - Hollywood Creatives",
+    "product":"creative tools",
+    "emotion":"excited",
+    "created_at":"2023-08-08 00:37:18"
+  },
+  {
+    "author_id":"3cd4b9ff-6ee7-4746-9d34-d08f02bba67e",
+    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle",
+    "product":"electric bike",
+    "emotion":"relaxed",
+    "created_at":"2023-12-18 21:15:33"
+  },
+  {
+    "author_id":"6ae42330-0733-4d18-9958-0e626c35bb48",
+    "tribe":"Young Professional Women - Urban Explorers",
+    "product":"compact camera",
+    "emotion":"excited",
+    "created_at":"2023-09-28 20:59:51"
+  },
+  {
+    "author_id":"5f20b530-5283-4d77-9cda-e9e388c863a1",
+    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle",
+    "product":"solar-powered charger",
+    "emotion":"satisfied",
+    "created_at":"2023-11-23 16:59:03"
+  },
+  {
+    "author_id":"4d601859-6fd5-471f-9739-f3b0775e83c9",
+    "tribe":"Creative Entrepreneurs - Hollywood Creatives",
+    "product":"smartphone",
+    "emotion":"creative",
+    "created_at":"2023-11-23 23:43:25"
+  },
+  {
+    "author_id":"b0a175df-142c-45dc-b51f-4ba01b76f85c",
+    "tribe":"Young Professional Women - Urban Explorers",
+    "product":"smartphone",
+    "emotion":"relaxed",
+    "created_at":"2023-08-14 14:24:40"
+  },
+  {
+    "author_id":"f359ac78-52e0-4d4e-86da-6c858507d066",
+    "tribe":"College Students - Campus Life (UCLA \/ USC)",
+    "product":"textbooks",
+    "emotion":"motivated",
+    "created_at":"2023-11-03 20:03:25"
+  },
+  {
+    "author_id":"88de7f3f-4dab-425d-bcac-7e4a31427b15",
+    "tribe":"Young Professional Women - Urban Explorers",
+    "product":"travel bag",
+    "emotion":"adventurous",
+    "created_at":"2023-11-17 14:48:01"
+  },
+  {
+    "author_id":"b1804c5f-f057-434f-bb04-39076926af43",
+    "tribe":"Creative Entrepreneurs - Hollywood Creatives",
+    "product":"luxury watch",
+    "emotion":"inspired",
+    "created_at":"2023-05-14 07:49:10"
+  },
+  {
+    "author_id":"b450c8ca-aa04-4315-9d97-e8f8ff557322",
+    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators",
+    "product":"laptop",
+    "emotion":"satisfied",
+    "created_at":"2024-11-25 07:04:49"
+  },
+  {
+    "author_id":"6591365b-750b-4b0c-a3ad-82b4937f0b04",
+    "tribe":"College Students - Campus Life (UCLA \/ USC)",
+    "product":"headphones",
+    "emotion":"satisfied",
+    "created_at":"2023-06-24 22:32:20"
+  },
+  {
+    "author_id":"47df6e09-a07e-463d-ad87-bbb8ec70bf7c",
+    "tribe":"Tech-Savvy Professionals - Silicon Beach Innovators",
+    "product":"wireless earbuds",
+    "emotion":"satisfied",
+    "created_at":"2023-07-05 10:14:21"
+  },
+  {
+    "author_id":"dc93875b-e85b-4eeb-acba-9c408fa170b1",
+    "tribe":"College Students - Campus Life (UCLA \/ USC)",
+    "product":"backpack",
+    "emotion":"curious",
+    "created_at":"2024-05-20 16:44:53"
+  },
+  {
+    "author_id":"d2ed3bcf-b920-4510-b3c5-10a4fb2b18bc",
+    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle",
+    "product":"solar-powered charger",
+    "emotion":"content",
+    "created_at":"2023-10-14 16:38:04"
+  },
+  {
+    "author_id":"f61b0a5c-970f-48cf-aa7b-2543b4a5baa5",
+    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle",
+    "product":"bamboo toothbrush",
+    "emotion":"content",
+    "created_at":"2024-12-15 08:06:37"
+  },
+  {
+    "author_id":"487b6aa1-9e0c-4469-b06b-8115a96e7f2a",
+    "tribe":"College Students - Campus Life (UCLA \/ USC)",
+    "product":"backpack",
+    "emotion":"satisfied",
+    "created_at":"2024-10-30 14:05:53"
+  },
+  {
+    "author_id":"f53fc3db-c641-4798-9d26-d32d9e066e3a",
+    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles",
+    "product":"premium wine",
+    "emotion":"satisfied",
+    "created_at":"2023-12-31 16:09:57"
+  },
+  {
+    "author_id":"3a1ba569-6741-40a6-a39e-4b9593bcf992",
+    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle",
+    "product":"bamboo toothbrush",
+    "emotion":"eco-friendly",
+    "created_at":"2023-02-22 08:33:18"
+  },
+  {
+    "author_id":"f3922e7a-6303-4812-ac98-1eb2204b2f4e",
+    "tribe":"Young Professional Women - Urban Explorers",
+    "product":"travel bag",
+    "emotion":"curious",
+    "created_at":"2024-11-14 20:20:37"
+  },
+  {
+    "author_id":"7873c92e-3149-4688-b055-f1421f527705",
+    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles",
     "product":"luxury watch",
     "emotion":"satisfied",
-    "created_at":"2023-07-26 13:13:13"
+    "created_at":"2024-10-16 11:04:42"
+  },
+  {
+    "author_id":"2af7fe38-e87e-4a2a-ab88-bdca75530e5e",
+    "tribe":"Creative Entrepreneurs - Hollywood Creatives",
+    "product":"designer laptop",
+    "emotion":"inspired",
+    "created_at":"2024-10-18 07:29:52"
+  },
+  {
+    "author_id":"e288d934-ad6b-4f7d-ba45-ee984bede474",
+    "tribe":"Creative Entrepreneurs - Hollywood Creatives",
+    "product":"high-end camera",
+    "emotion":"inspired",
+    "created_at":"2023-06-11 21:09:27"
+  },
+  {
+    "author_id":"af55a083-3563-4fe4-be01-0467c5ad48f5",
+    "tribe":"College Students - Campus Life (UCLA \/ USC)",
+    "product":"laptop",
+    "emotion":"motivated",
+    "created_at":"2024-07-04 22:50:34"
+  },
+  {
+    "author_id":"1b9487ef-e0d5-4099-be1d-aa557168c0ef",
+    "tribe":"College Students - Campus Life (UCLA \/ USC)",
+    "product":"textbooks",
+    "emotion":"excited",
+    "created_at":"2024-11-21 16:17:11"
+  },
+  {
+    "author_id":"a454fa04-5ca3-4d6c-aa36-daa2506f9046",
+    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles",
+    "product":"luxury car",
+    "emotion":"luxurious",
+    "created_at":"2024-05-14 04:19:16"
+  },
+  {
+    "author_id":"391c15fe-0143-413d-bae2-144ee173f25f",
+    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles",
+    "product":"luxury car",
+    "emotion":"satisfied",
+    "created_at":"2024-08-01 10:25:20"
+  },
+  {
+    "author_id":"de4e6ae7-c64a-44f3-b636-3ae099c66939",
+    "tribe":"Young Professional Women - Urban Explorers",
+    "product":"travel bag",
+    "emotion":"excited",
+    "created_at":"2024-04-17 10:08:10"
+  },
+  {
+    "author_id":"d06e1276-24f1-4b67-bbcc-71a1873eef6b",
+    "tribe":"Eco-Conscious Millennials - Sustainable Lifestyle",
+    "product":"electric bike",
+    "emotion":"satisfied",
+    "created_at":"2023-05-13 08:26:34"
+  },
+  {
+    "author_id":"3b61da9c-96d5-45da-b3c4-4ba788698526",
+    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles",
+    "product":"gourmet food subscription",
+    "emotion":"luxurious",
+    "created_at":"2023-06-04 16:55:49"
+  },
+  {
+    "author_id":"779f4e35-fca3-4da1-9d9b-bec4c89c4ecc",
+    "tribe":"Creative Entrepreneurs - Hollywood Creatives",
+    "product":"luxury watch",
+    "emotion":"excited",
+    "created_at":"2024-02-26 22:10:03"
+  },
+  {
+    "author_id":"56619ac2-4853-4be2-89a2-ede7d6911784",
+    "tribe":"Luxury-Oriented Professionals - Upscale Lifestyles",
+    "product":"luxury watch",
+    "emotion":"content",
+    "created_at":"2023-01-01 06:29:39"
   }
 ]

@@ -1,272 +1,272 @@
 [
   {
-    "campaign_id":"AD-1278",
-    "segment":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
+    "campaign_id":"AD-5124",
+    "segment":"Young Professional Women - Urban Explorers",
     "product":"travel bag",
-    "optimized_ad_copy":"\"Explore the city in style! \ud83d\udc83 Durable, lightweight travel bag for urban adventures. Shop now\"",
-    "impressions":130989,
-    "ctr":0.81,
-    "estimated_clicks":1061
+    "optimized_ad_copy":"\"Ready for your next urban escape? \ud83d\udcbc\ud83d\uddfa\ufe0f Our travel bag is durable, stylish & fits all your essentials. Discover\"",
+    "impressions":38066,
+    "ctr":2.26,
+    "estimated_clicks":860
   },
   {
-    "campaign_id":"AD-9023",
-    "segment":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
+    "campaign_id":"AD-6213",
+    "segment":"Young Professional Women - Urban Explorers",
     "product":"stylish sunglasses",
-    "optimized_ad_copy":"\"Explore the city in style \ud83d\udd76\ufe0f! Our sunglasses offer UV protection, polarized lenses, and sleek designs. Perfect for downtown adventures. Get yours\"",
-    "impressions":456835,
-    "ctr":2.22,
-    "estimated_clicks":10141
+    "optimized_ad_copy":"\"Explore the city in style! \ud83d\udc83 Our sunglasses offer UV protection, polarized lenses & sleek designs. Learn more\"",
+    "impressions":171145,
+    "ctr":0.74,
+    "estimated_clicks":1266
   },
   {
-    "campaign_id":"AD-1928",
-    "segment":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
+    "campaign_id":"AD-2972",
+    "segment":"Young Professional Women - Urban Explorers",
     "product":"compact camera",
-    "optimized_ad_copy":"\"Capture city vibes with our compact camera! \ud83d\udcf8 Lightweight, 4K video & Wi-Fi connectivity. Perfect for urban adventures! Get yours\"",
-    "impressions":338971,
-    "ctr":2.74,
-    "estimated_clicks":9287
+    "optimized_ad_copy":"\"Capture city vibes \ud83d\udcf8 with our compact camera! Lightweight, 4K video & Wi-Fi connectivity. Get yours\"",
+    "impressions":197423,
+    "ctr":1.33,
+    "estimated_clicks":2625
   },
   {
-    "campaign_id":"AD-4147",
-    "segment":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
+    "campaign_id":"AD-6868",
+    "segment":"Young Professional Women - Urban Explorers",
     "product":"smartphone",
-    "optimized_ad_copy":"\"Explore the city with ease \ud83d\uddfa\ufe0f. Our smartphone's long battery life and sleek camera keep up with your downtown adventures. Discover\"",
-    "impressions":256674,
-    "ctr":1.37,
-    "estimated_clicks":3516
+    "optimized_ad_copy":"\"Unleash your city adventures with our smartphone! \ud83d\udcf1 Capture stunning pics, navigate with ease & stay connected on-the-go! Discover\"",
+    "impressions":167547,
+    "ctr":0.64,
+    "estimated_clicks":1072
   },
   {
-    "campaign_id":"AD-1704",
-    "segment":"Young Professional Women - Urban Explorers (Downtown LA \/ Arts District)",
+    "campaign_id":"AD-2068",
+    "segment":"Young Professional Women - Urban Explorers",
     "product":"fitness tracker",
-    "optimized_ad_copy":"\"Track your downtown adventures \ud83c\udfd9\ufe0f and crush your fitness goals with our stylish tracker. Discover\"",
-    "impressions":352175,
-    "ctr":2.66,
-    "estimated_clicks":9367
+    "optimized_ad_copy":"\"Track your urban adventures \ud83c\udfc3\u200d\u2640\ufe0f! Monitor steps, sleep & heart rate. Get yours\"",
+    "impressions":465213,
+    "ctr":2.61,
+    "estimated_clicks":12142
   },
   {
-    "campaign_id":"AD-8158",
-    "segment":"Tech-Savvy Professionals - Silicon Beach Innovators (Venice Beach \/ Santa Monica)",
+    "campaign_id":"AD-8596",
+    "segment":"Tech-Savvy Professionals - Silicon Beach Innovators",
     "product":"smartphone",
-    "optimized_ad_copy":"\"Upgrade your mobile game \ud83d\udcc8 with our latest smartphone! Faster, smarter, and sleeker. Shop now\"",
-    "impressions":189330,
-    "ctr":0.7,
-    "estimated_clicks":1325
+    "optimized_ad_copy":"\"Upgrade your mobile experience \ud83d\udcc8! Our smartphone offers lightning-fast performance, advanced security, and seamless multitasking. Perfect for Silicon Beach innovators like you! Learn more\"",
+    "impressions":345380,
+    "ctr":1.72,
+    "estimated_clicks":5940
   },
   {
-    "campaign_id":"AD-1416",
-    "segment":"Tech-Savvy Professionals - Silicon Beach Innovators (Venice Beach \/ Santa Monica)",
+    "campaign_id":"AD-9611",
+    "segment":"Tech-Savvy Professionals - Silicon Beach Innovators",
     "product":"laptop",
-    "optimized_ad_copy":"\"Upgrade your workflow with our ultra-fast laptop \ud83d\ude80! Perfect for innovators like you in Silicon Beach, stay productive and inspired on-the-go. Learn more\"",
-    "impressions":436097,
-    "ctr":2.68,
-    "estimated_clicks":11687
+    "optimized_ad_copy":"\"Upgrade your workflow \ud83d\ude80 with our cutting-edge laptop, designed for innovators like you. Unleash productivity and creativity on-the-go! Learn more\"",
+    "impressions":420701,
+    "ctr":1.65,
+    "estimated_clicks":6941
   },
   {
-    "campaign_id":"AD-4578",
-    "segment":"Tech-Savvy Professionals - Silicon Beach Innovators (Venice Beach \/ Santa Monica)",
+    "campaign_id":"AD-4428",
+    "segment":"Tech-Savvy Professionals - Silicon Beach Innovators",
     "product":"smartwatch",
-    "optimized_ad_copy":"\"Upgrade your hustle with our smartwatch \ud83d\udd52\ufe0f! Track fitness, receive notifications, and control music. Discover\"",
-    "impressions":136413,
-    "ctr":2.47,
-    "estimated_clicks":3369
+    "optimized_ad_copy":"\"Upgrade your hustle with our smartwatch! \ud83d\ude80 Track fitness, receive notifications & control music on the go! Learn more\"",
+    "impressions":150041,
+    "ctr":2.13,
+    "estimated_clicks":3195
   },
   {
-    "campaign_id":"AD-7041",
-    "segment":"Tech-Savvy Professionals - Silicon Beach Innovators (Venice Beach \/ Santa Monica)",
+    "campaign_id":"AD-1530",
+    "segment":"Tech-Savvy Professionals - Silicon Beach Innovators",
     "product":"tablet",
-    "optimized_ad_copy":"\"Upgrade your workflow \ud83d\ude80 with our cutting-edge tablet, designed for innovators like you. Discover\"",
-    "impressions":150448,
-    "ctr":4.35,
-    "estimated_clicks":6544
+    "optimized_ad_copy":"\"Upgrade your workflow \ud83d\udcca with our latest tablet, designed for innovators like you. Discover\"",
+    "impressions":320915,
+    "ctr":4.28,
+    "estimated_clicks":13735
   },
   {
-    "campaign_id":"AD-2033",
-    "segment":"Tech-Savvy Professionals - Silicon Beach Innovators (Venice Beach \/ Santa Monica)",
+    "campaign_id":"AD-8982",
+    "segment":"Tech-Savvy Professionals - Silicon Beach Innovators",
     "product":"wireless earbuds",
-    "optimized_ad_copy":"\"Upgrade your workflow with our wireless earbuds \ud83c\udfa7. Seamless connectivity, crystal-clear sound, and all-day battery life. Learn more\"",
-    "impressions":406666,
-    "ctr":4.68,
-    "estimated_clicks":19031
+    "optimized_ad_copy":"\"Upgrade your commute! \ud83d\udcbb Wireless earbuds with 10hr battery life & seamless connectivity. Shop now!\"",
+    "impressions":126590,
+    "ctr":4.41,
+    "estimated_clicks":5582
   },
   {
-    "campaign_id":"AD-9590",
-    "segment":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
+    "campaign_id":"AD-8970",
+    "segment":"Creative Entrepreneurs - Hollywood Creatives",
     "product":"designer laptop",
-    "optimized_ad_copy":"\"Unleash your creativity! \ud83d\udcbb Powerful laptop for Hollywood's top creatives. Edit, design, and stream with ease. Discover\"",
-    "impressions":458016,
-    "ctr":4.98,
-    "estimated_clicks":22809
+    "optimized_ad_copy":"\"Unleash your creativity! \ud83d\udcbb Our designer laptop empowers Hollywood creatives with lightning speed & stunning visuals. Get yours!\"",
+    "impressions":132541,
+    "ctr":2.71,
+    "estimated_clicks":3591
   },
   {
-    "campaign_id":"AD-4229",
-    "segment":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
+    "campaign_id":"AD-5987",
+    "segment":"Creative Entrepreneurs - Hollywood Creatives",
     "product":"high-end camera",
-    "optimized_ad_copy":"\"Elevate your creative vision! \ud83d\udcf8 Capture stunning footage with our high-end camera. Shop now!\"",
-    "impressions":304918,
-    "ctr":3.26,
-    "estimated_clicks":9940
+    "optimized_ad_copy":"\"Elevate your art \ud83d\udcf8 with our high-end camera. Capture life's moments in stunning clarity. Get yours\"",
+    "impressions":417760,
+    "ctr":4.03,
+    "estimated_clicks":16835
   },
   {
-    "campaign_id":"AD-8480",
-    "segment":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
+    "campaign_id":"AD-4032",
+    "segment":"Creative Entrepreneurs - Hollywood Creatives",
     "product":"smartphone",
-    "optimized_ad_copy":"\"Unlock your creative flow \ud83c\udf1f with our smartphone, designed to spark inspiration and bring your vision to life. Discover\"",
-    "impressions":386156,
-    "ctr":2.56,
-    "estimated_clicks":9885
+    "optimized_ad_copy":"\"Unleash your creativity! \ud83c\udfa5 Our smartphone empowers you to create, edit & share on-the-go! Get yours\"",
+    "impressions":143577,
+    "ctr":4.58,
+    "estimated_clicks":6575
   },
   {
-    "campaign_id":"AD-3000",
-    "segment":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
+    "campaign_id":"AD-3983",
+    "segment":"Creative Entrepreneurs - Hollywood Creatives",
     "product":"creative tools",
-    "optimized_ad_copy":"\"Unleash your creativity \ud83c\udfa8! Get pro-grade tools to bring your vision to life. Shop now\"",
-    "impressions":219433,
-    "ctr":0.76,
-    "estimated_clicks":1667
+    "optimized_ad_copy":"\"Unleash your creativity \ud83c\udfac! Get pro tools to streamline your workflow, boost productivity, and bring your vision to life. Learn more\"",
+    "impressions":223800,
+    "ctr":3.16,
+    "estimated_clicks":7072
   },
   {
-    "campaign_id":"AD-5521",
-    "segment":"Creative Entrepreneurs - Hollywood Creatives (West Hollywood \/ Beverly Hills)",
+    "campaign_id":"AD-3655",
+    "segment":"Creative Entrepreneurs - Hollywood Creatives",
     "product":"luxury watch",
-    "optimized_ad_copy":"\"Elevate your creative vision with our luxury timepieces \ud83d\udd70\ufe0f. Precision, style, and sophistication for the innovators of Hollywood. Shop now\"",
-    "impressions":199924,
-    "ctr":4.83,
-    "estimated_clicks":9656
+    "optimized_ad_copy":"\"Elevate your creative vision with our luxury watch \ud83d\udd70\ufe0f. Precision, style, and sophistication for the bold thinkers of Hollywood. Learn more\"",
+    "impressions":38367,
+    "ctr":0.79,
+    "estimated_clicks":303
   },
   {
-    "campaign_id":"AD-7346",
-    "segment":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
+    "campaign_id":"AD-5748",
+    "segment":"Eco-Conscious Millennials - Sustainable Lifestyle",
     "product":"reusable water bottle",
-    "optimized_ad_copy":"\"Stay hydrated, reduce waste \ud83c\udf0e. Our reusable water bottles are BPA-free, durable, and perfect for your eco-friendly lifestyle. Discover\"",
-    "impressions":328840,
-    "ctr":2.8,
-    "estimated_clicks":9207
+    "optimized_ad_copy":"\"Stay hydrated, reduce waste \ud83c\udf0e with our reusable water bottle. Ditch single-use plastics and live sustainably. Learn more\"",
+    "impressions":160740,
+    "ctr":3.66,
+    "estimated_clicks":5883
   },
   {
-    "campaign_id":"AD-1614",
-    "segment":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
+    "campaign_id":"AD-5646",
+    "segment":"Eco-Conscious Millennials - Sustainable Lifestyle",
     "product":"organic skincare",
-    "optimized_ad_copy":"\"Love your skin, love the earth \ud83c\udf3f! Our organic skincare is cruelty-free, vegan, and sustainable. Get yours!\"",
-    "impressions":263548,
-    "ctr":3.94,
-    "estimated_clicks":10383
+    "optimized_ad_copy":"\"Nourish your skin, naturally \ud83c\udf3f! Our organic skincare is cruelty-free, vegan, and eco-friendly. Get yours!\"",
+    "impressions":465729,
+    "ctr":0.77,
+    "estimated_clicks":3586
   },
   {
-    "campaign_id":"AD-4481",
-    "segment":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
+    "campaign_id":"AD-6161",
+    "segment":"Eco-Conscious Millennials - Sustainable Lifestyle",
     "product":"bamboo toothbrush",
-    "optimized_ad_copy":"\"Switch to bamboo toothbrushes \ud83c\udf3f and join the eco-revolution! Biodegradable, compostable, and gentle on gums. Get yours\"",
-    "impressions":37947,
-    "ctr":4.21,
-    "estimated_clicks":1597
+    "optimized_ad_copy":"\"Smile sustainably \ud83c\udf3f! Our bamboo toothbrush is biodegradable, reducing waste and promoting a healthier planet. Discover\"",
+    "impressions":123481,
+    "ctr":4.04,
+    "estimated_clicks":4988
   },
   {
-    "campaign_id":"AD-6958",
-    "segment":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
+    "campaign_id":"AD-8840",
+    "segment":"Eco-Conscious Millennials - Sustainable Lifestyle",
     "product":"electric bike",
-    "optimized_ad_copy":"\"Go green in Culver City & Echo Park! \ud83c\udf3f Our e-bikes are eco-friendly, affordable & fun. Discover\"",
-    "impressions":332245,
-    "ctr":2.87,
-    "estimated_clicks":9535
+    "optimized_ad_copy":"\"Go green with our eco-friendly e-bikes! \ud83c\udf3f Reduce carbon footprint, boost fitness & fun. Shop now\"",
+    "impressions":45691,
+    "ctr":1.59,
+    "estimated_clicks":726
   },
   {
-    "campaign_id":"AD-2840",
-    "segment":"Eco-Conscious Millennials - Sustainable Lifestyle (Culver City \/ Echo Park)",
+    "campaign_id":"AD-5107",
+    "segment":"Eco-Conscious Millennials - Sustainable Lifestyle",
     "product":"solar-powered charger",
-    "optimized_ad_copy":"\"Power up sustainably \ud83c\udf1e with our solar charger! Reduce carbon footprint, charge on-the-go. Discover\"",
-    "impressions":324639,
-    "ctr":2.29,
-    "estimated_clicks":7434
+    "optimized_ad_copy":"\"Power up sustainably \ud83c\udf1e with our solar charger! Reduce carbon footprint, charge on-the-go. Get yours\"",
+    "impressions":293768,
+    "ctr":3.92,
+    "estimated_clicks":11515
   },
   {
-    "campaign_id":"AD-3318",
-    "segment":"Luxury-Oriented Professionals - Upscale Lifestyles (Beverly Hills \/ Bel Air)",
+    "campaign_id":"AD-3515",
+    "segment":"Luxury-Oriented Professionals - Upscale Lifestyles",
     "product":"luxury watch",
-    "optimized_ad_copy":"\"Elevate your style with our luxury watches \ud83d\udd70\ufe0f. Precision, sophistication, and elegance for the discerning professional. Learn more\"",
-    "impressions":438734,
-    "ctr":2.7,
-    "estimated_clicks":11845
+    "optimized_ad_copy":"\"Elevate your style with our luxury watches \ud83d\udd70\ufe0f. Precision, sophistication, and timeless design. Learn more\"",
+    "impressions":95787,
+    "ctr":2.24,
+    "estimated_clicks":2145
   },
   {
-    "campaign_id":"AD-9222",
-    "segment":"Luxury-Oriented Professionals - Upscale Lifestyles (Beverly Hills \/ Bel Air)",
+    "campaign_id":"AD-6546",
+    "segment":"Luxury-Oriented Professionals - Upscale Lifestyles",
     "product":"high-end camera",
-    "optimized_ad_copy":"\"Elevate your art with our luxury camera \ud83d\udcf8. Capture life's precious moments in stunning clarity. Discover\"",
-    "impressions":274169,
-    "ctr":4.6,
-    "estimated_clicks":12611
+    "optimized_ad_copy":"\"Elevate your art with our premium camera \ud83d\udcf8. Capture life's finest moments in stunning clarity. Get yours\"",
+    "impressions":412012,
+    "ctr":3.48,
+    "estimated_clicks":14338
   },
   {
-    "campaign_id":"AD-2864",
-    "segment":"Luxury-Oriented Professionals - Upscale Lifestyles (Beverly Hills \/ Bel Air)",
+    "campaign_id":"AD-6260",
+    "segment":"Luxury-Oriented Professionals - Upscale Lifestyles",
     "product":"luxury car",
-    "optimized_ad_copy":"\"Arrive in style \ud83d\ude97 with our luxury cars, tailored for Beverly Hills' elite. Experience unparalleled comfort and performance. Learn more\"",
-    "impressions":253392,
-    "ctr":3.12,
-    "estimated_clicks":7905
+    "optimized_ad_copy":"\"Arrive in style \ud83d\ude97 with our luxury car, designed for professionals who demand the best. Experience unparalleled comfort and performance. Discover\"",
+    "impressions":245834,
+    "ctr":3.9,
+    "estimated_clicks":9587
   },
   {
-    "campaign_id":"AD-2526",
-    "segment":"Luxury-Oriented Professionals - Upscale Lifestyles (Beverly Hills \/ Bel Air)",
+    "campaign_id":"AD-7299",
+    "segment":"Luxury-Oriented Professionals - Upscale Lifestyles",
     "product":"premium wine",
-    "optimized_ad_copy":"\"Indulge in luxury with our premium wine \ud83c\udf77. Elevate your evenings in Beverly Hills with rich flavors and refined taste. Shop now\"",
-    "impressions":199250,
-    "ctr":1.32,
-    "estimated_clicks":2630
+    "optimized_ad_copy":"\"Unwind with our premium wine \ud83c\udf77. Rich flavors, smooth finish. Pair with life's finer moments. Shop now\"",
+    "impressions":455609,
+    "ctr":3.74,
+    "estimated_clicks":17039
   },
   {
-    "campaign_id":"AD-9567",
-    "segment":"Luxury-Oriented Professionals - Upscale Lifestyles (Beverly Hills \/ Bel Air)",
+    "campaign_id":"AD-7223",
+    "segment":"Luxury-Oriented Professionals - Upscale Lifestyles",
     "product":"gourmet food subscription",
-    "optimized_ad_copy":"\"Elevate your evenings with gourmet delights \ud83c\udf74. Savor artisanal cuisine, expertly curated for discerning tastes. Discover\"",
-    "impressions":330783,
-    "ctr":1.3,
-    "estimated_clicks":4300
+    "optimized_ad_copy":"Indulge in gourmet delights \ud83c\udf74, curated for discerning professionals. Savor exclusive flavors, elevate your entertaining. Get yours",
+    "impressions":120142,
+    "ctr":4.0,
+    "estimated_clicks":4805
   },
   {
-    "campaign_id":"AD-1571",
+    "campaign_id":"AD-6450",
     "segment":"College Students - Campus Life (UCLA \/ USC)",
     "product":"backpack",
-    "optimized_ad_copy":"\"Get ready to crush campus life! \ud83c\udf93 Our backpacks are comfy, stylish & tech-friendly. Learn more!\"",
-    "impressions":167119,
-    "ctr":0.87,
-    "estimated_clicks":1453
+    "optimized_ad_copy":"\"Get ready to crush campus life! \ud83c\udf93 Our backpacks are comfy, stylish & spacious. Discover the perfect fit for UCLA & USC adventures!\"",
+    "impressions":460037,
+    "ctr":0.93,
+    "estimated_clicks":4278
   },
   {
-    "campaign_id":"AD-2481",
+    "campaign_id":"AD-8361",
     "segment":"College Students - Campus Life (UCLA \/ USC)",
     "product":"laptop",
-    "optimized_ad_copy":"\"Study in style at UCLA\/USC! \ud83d\udcda\ud83d\udcbb Our laptops keep up with your campus life - fast, portable, and long-lasting. Learn more\"",
-    "impressions":450373,
-    "ctr":3.99,
-    "estimated_clicks":17969
+    "optimized_ad_copy":"\"Upgrade your campus life with our laptops! \ud83d\udcbb Fast, portable, and perfect for studying and streaming. Learn more!\"",
+    "impressions":285511,
+    "ctr":1.04,
+    "estimated_clicks":2969
   },
   {
-    "campaign_id":"AD-5884",
+    "campaign_id":"AD-2926",
     "segment":"College Students - Campus Life (UCLA \/ USC)",
     "product":"coffee maker",
-    "optimized_ad_copy":"\"Fuel your all-nighters! \ud83d\ude80 Our coffee maker brews fast, rich coffee to power your studies. Discover\"",
-    "impressions":449222,
-    "ctr":1.99,
-    "estimated_clicks":8939
+    "optimized_ad_copy":"\"Fuel your all-nighters \ud83c\udf03 with our coffee maker! Rich flavor, easy use. Discover\"",
+    "impressions":287470,
+    "ctr":1.19,
+    "estimated_clicks":3420
   },
   {
-    "campaign_id":"AD-1307",
+    "campaign_id":"AD-2254",
     "segment":"College Students - Campus Life (UCLA \/ USC)",
     "product":"textbooks",
-    "optimized_ad_copy":"\"Score great grades with our affordable textbooks! \ud83d\udcda Save time, money, and stress. Learn more\"",
-    "impressions":114085,
-    "ctr":3.56,
-    "estimated_clicks":4061
+    "optimized_ad_copy":"\"Boost your grades & campus life! \ud83d\udcda Affordable textbooks, fast shipping. Shop now!\"",
+    "impressions":162583,
+    "ctr":4.75,
+    "estimated_clicks":7722
   },
   {
-    "campaign_id":"AD-3094",
+    "campaign_id":"AD-2789",
     "segment":"College Students - Campus Life (UCLA \/ USC)",
     "product":"headphones",
-    "optimized_ad_copy":"\"Upgrade your campus vibes with our epic headphones! \ud83c\udfa7 Immerse yourself in study sessions, jam out between classes, and chill with friends. Discover\"",
-    "impressions":367374,
-    "ctr":5.0,
-    "estimated_clicks":18368
+    "optimized_ad_copy":"\"Upgrade your campus vibes with our epic headphones! \ud83d\udc83\ud83c\udffd Immerse yourself in study sessions, jam out between classes, and chill with friends. Learn more!\"",
+    "impressions":149118,
+    "ctr":1.44,
+    "estimated_clicks":2147
   }
 ]
