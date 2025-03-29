@@ -32,12 +32,12 @@ VS_INDEX_NAME = "jack_sandom.ai_audience_segments.ad_campaigns_index" #@TODO REP
 llm = ChatDatabricks(endpoint=LLM_ENDPOINT_NAME)
 
 system_prompt = PromptTemplate(
-    input_variables=["segment", "profile", "retrieved_ads"],
+    input_variables=["tribe", "profile", "retrieved_ads"],
     template="""
-    You are an audience persona named {segment} with the following profile:
+    You are an audience persona named {tribe} with the following profile:
     {profile}
 
-    The user is an advertising content writer and wants to tailor copy specific to your persona. Your goal is to assist the user in doing this by acting as a {segment} and helping the user to test ideas and get to tailored ad content which is effective on your persona.
+    The user is an advertising content writer and wants to tailor copy specific to your persona. Your goal is to assist the user in doing this by acting as a {tribe} and helping the user to test ideas and get to tailored ad content which is effective on your persona.
 
     {retrieved_ads}
 
@@ -55,8 +55,8 @@ vs_tool = VectorSearchRetrieverTool(
   num_results=1,
   columns=["campaign_id", "ad_copy"],
   tool_name="Ad-Copy-Retriever",
-  tool_description="Retrieve prior successful ad copy for segment",
-  filters={"segment": None}, # Placeholder for dynamic filtering
+  tool_description="Retrieve prior successful ad copy for tribe",
+  filters={"tribe": None}, # Placeholder for dynamic filtering
 )
 
 #####################
@@ -73,7 +73,7 @@ def create_profile_agent(
         including relevant ad copy retrieved using vector search if applicable.
         """
         custom_inputs = state.get("custom_inputs", {})
-        segment = custom_inputs.get("segment", "Casual Users")
+        tribe = custom_inputs.get("tribe", "Casual Users")
         
         profile = state["context"].get(
             "profile", "A casual user doesn't think too much about the product. They will just buy whatever is convenient or cheapest."
@@ -95,18 +95,18 @@ def create_profile_agent(
         decision = llm.invoke(tool_decision_prompt).content.strip().lower()
         
         if decision == "yes":
-            vs_tool.filters = {"segment": segment}
+            vs_tool.filters = {"tribe": tribe}
             tool_response = vs_tool.invoke(state["messages"][-1]["content"])
             if tool_response:
                 retrieved_ads = "".join([f"{doc.page_content}" for doc in tool_response])
         
-        retrieved_ads_text = f"""Here is a past successful ad for this segment:
+        retrieved_ads_text = f"""Here is a past successful ad for this tribe:
         {retrieved_ads}
         
         Use this ad as inspiration if it is relevant to the user's query. If it is not relevant, ignore.""" if retrieved_ads else ""
 
         formatted_prompt = system_prompt.format(
-            segment=segment,
+            tribe=tribe,
             profile=profile,
             retrieved_ads=retrieved_ads_text
         )
@@ -155,9 +155,9 @@ class LangGraphChatAgent(ChatAgent):
         Uses the loaded profiles.json to generate responses.
         """
         custom_inputs = custom_inputs or {}
-        segment = custom_inputs.get("segment", "Casual Users")
+        tribe = custom_inputs.get("tribe", "Casual Users")
         profile = self.PROFILES.get(
-            segment, "A casual user doesn't think too much about the product. They will just buy whatever is convenient or cheapest.")
+            tribe, "A casual user doesn't think too much about the product. They will just buy whatever is convenient or cheapest.")
         
         request = {
             "messages": self._convert_messages_to_dict(messages),
@@ -189,9 +189,9 @@ class LangGraphChatAgent(ChatAgent):
         Uses the loaded profiles.json to generate responses.
         """
         custom_inputs = custom_inputs or {}
-        segment = custom_inputs.get("segment", "Casual Users")
+        tribe = custom_inputs.get("tribe", "Casual Users")
         profile = self.PROFILES.get(
-            segment, "A casual user doesn't think too much about the product. They will just buy whatever is convenient or cheapest.")
+            tribe, "A casual user doesn't think too much about the product. They will just buy whatever is convenient or cheapest.")
 
         request = {
             "messages": self._convert_messages_to_dict(messages),

@@ -40,32 +40,32 @@ st.write(f"Speak to an ad profile assistant based on your audience personas.")
 
 # Avatars
 human_avatar = "💬"
-segment_avatars = {
-    "Suburban Family-Oriented": "🧑🏼‍🍼",
-    "High-Income Empty Nester": "🏌🏻‍♀️",
-    "College Student": "👨🏽‍🎓",
-    "Retired Rural Dweller": "👨🏼‍🌾",
-    "Young Urban Professional": "👩🏼‍💻"
+tribe_avatars = {
+    "The Homebodies (Suburban Family-Oriented)": "🧑🏼‍🍼",
+    "The Luxe Lifers (High-Income Empty Nester)": "🏌🏻‍♀️",
+    "The Campus Creatives (College Student)": "👨🏽‍🎓",
+    "The Quiet Seekers (Retired Rural Dweller)": "👨🏼‍🌾",
+    "The Innovators (Tech-Savvy Professional)": "👩🏼‍💻"
 }
-# Dropdown for selecting segment
-segment_options = list(segment_avatars.keys())
+# Dropdown for selecting tribe
+tribe_options = list(tribe_avatars.keys())
 
-# Initialise session state for segment selection
-if "selected_segment" not in st.session_state:
-    st.session_state.selected_segment = segment_options[0] # Default value
+# Initialise session state for tribe selection
+if "selected_tribe" not in st.session_state:
+    st.session_state.selected_tribe = tribe_options[0] # Default value
 
 # Directly link selectbox to session state
 st.selectbox(
-    "Select a customer segment:", segment_options, 
-    index=segment_options.index(st.session_state.selected_segment), 
-    key="selected_segment"
+    "Select a customer tribe:", tribe_options, 
+    index=tribe_options.index(st.session_state.selected_tribe), 
+    key="selected_tribe"
 )
 st.divider()
 
 # Only reset chat when the selection actually changes
-if st.session_state.selected_segment != st.session_state.get("prev_selected_segment", None):
+if st.session_state.selected_tribe != st.session_state.get("prev_selected_tribe", None):
     st.session_state.messages = []  # Clear chat history
-    st.session_state.prev_selected_segment = st.session_state.selected_segment  # Track previous selection
+    st.session_state.prev_selected_tribe = st.session_state.selected_tribe  # Track previous selection
 
 # Initialise chat history
 if "messages" not in st.session_state:
@@ -87,14 +87,14 @@ if prompt := st.chat_input("How can I help with your ad campaign?"):
     # messages = [{'content': prompt, 'role': 'user'}]
 
     # Display assistant response in chat message container
-    with st.chat_message("assistant", avatar=segment_avatars[st.session_state.selected_segment]):
+    with st.chat_message("assistant", avatar=tribe_avatars[st.session_state.selected_tribe]):
         # Query the Databricks serving endpoint
         try:
             response = client.predict(
                 endpoint=os.getenv("SERVING_ENDPOINT"),
                 inputs={
                     "messages": [{"role": msg["role"], "content": msg["content"]} for msg in st.session_state.messages], 
-                    "custom_inputs": {"segment": st.session_state.selected_segment},
+                    "custom_inputs": {"tribe": st.session_state.selected_tribe},
                 },
             )
             assistant_response = response['messages'][0]['content']
@@ -125,5 +125,5 @@ if prompt := st.chat_input("How can I help with your ad campaign?"):
     st.session_state.messages.append({
         "role": "assistant",
         "content": assistant_response,
-        "avatar": segment_avatars[st.session_state.selected_segment]
+        "avatar": tribe_avatars[st.session_state.selected_tribe]
     })
