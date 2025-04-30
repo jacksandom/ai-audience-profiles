@@ -4,7 +4,7 @@ Classic segmentation helps group customers and build personas/profiles but lacks
 
 ## The Solution: Synthetic Focus Group with Agent AI
 - Step 1: Cluster structured customer data (demographics) using traditional methods (e.g. K-means)
-- Step 2: Enrich segments with unstructured data (social media posts) to build realistic audience personas using LLM
+- Step 2: Enrich segments with unstructured data (paid reviews) to build realistic audience personas using LLM
 - Step 3: AI agent evaluates and responds to ad content like a real audience (optional - RAG tool to leverage previous successful campaigns to guide agent output)
 - Step 4: Databricks app as a front-end to let user interact with agent and get AI-driven feedback
 
